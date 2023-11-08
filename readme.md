@@ -13,7 +13,7 @@ Free BMR calculator uses well-known algorithms to calculate the basal metabolic 
 
 ## Usage
 * Add the shortcode `[ci_bmr_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_bmr_calculator(); ?>` to your template where you would like the BMR Calculator to appear.
+* Or add the following code: `<?php display_ci_bmr_calculator(); ?>` to your template where you would like the BMR Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
