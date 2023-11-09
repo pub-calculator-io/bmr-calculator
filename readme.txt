@@ -13,6 +13,8 @@ Free BMR calculator uses well-known algorithms to calculate the basal metabolic 
 
 Free BMR calculator uses well-known algorithms to calculate the basal metabolic rate. Also, find out more about the factors that influence BMR.
 
+[BMR Calculator Homepage](https://www.calculator.io/bmr-calculator/ "BMR Calculator Homepage")
+
 __Shortcode__
 
 Use the BMR Calculator shortcode:
