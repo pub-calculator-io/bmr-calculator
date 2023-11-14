@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Free BMR calculator uses well-known algorithms to calculate the basal metabolic rate. Also, find out more about the factors that influence BMR.
 
-== Description ==
-
-Free BMR calculator uses well-known algorithms to calculate the basal metabolic rate. Also, find out more about the factors that influence BMR.
-
 [https://www.calculator.io/bmr-calculator/](https://www.calculator.io/bmr-calculator/)
 
-__BMR Calculator Shortcode__
+== Usage ==
+
+Add the BMR Calculator shortcode to your page, post or sidebar:
 
 `[ci_bmr_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the BMR Calculator to appear:
 
-1. Upload the /ci_bmr_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [BMR Calculator](https://www.calculator.io/bmr-calculator/ "BMR Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== BMR Calculator Usage ==
-
-* Add the shortcode `[ci_bmr_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_bmr_calculator(); ?>` to your template where you would like the BMR Calculator to appear.
+`<?php display_ci_bmr_calculator(); ?>`
 
 == Screenshots ==
 
 1. The BMR Calculator Input Form.
 2. The BMR Calculator Calculation Results.
 
-== Libraries used in BMR Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the BMR Calculator /ci_bmr_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the BMR Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of BMR Calculator
