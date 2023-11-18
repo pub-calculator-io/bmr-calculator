@@ -1,4 +1,4 @@
-# BMR Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# BMR Calculator Widget for WordPress
 
 Free BMR calculator uses well-known algorithms to calculate the basal metabolic rate. Also, find out more about the factors that influence BMR.
 
