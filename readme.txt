@@ -1,4 +1,4 @@
-=== BMR Calculator by Calculator.iO ===
+=== BMR Calculator ===
 Contributors: calculatorio
 Tags: bmr calculator, basal metabolic rate tool, calculate bmr online, bmr formula calculation, daily calorie burn, resting metabolic rate estimator, calorie intake calculator, bmr for weight management, energy expenditure calculator, metabolism rate checker
 Requires at least: 5.0
