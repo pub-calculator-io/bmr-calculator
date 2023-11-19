@@ -7,7 +7,7 @@ Free BMR calculator uses well-known algorithms to calculate the basal metabolic 
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/bmr-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /bmr-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [BMR Calculator](https://www.calculator.io/bmr-calculator/ "BMR Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
