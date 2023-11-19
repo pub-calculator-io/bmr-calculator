@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: BMR Calculator by www.calculator.io
+Plugin Name: CI Bmr calculator
 Plugin URI: https://www.calculator.io/bmr-calculator/
 Description: Free BMR calculator uses well-known algorithms to calculate the basal metabolic rate. Also, find out more about the factors that influence BMR.
 Version: 1.0.0
