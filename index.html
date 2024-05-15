@@ -53,7 +53,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col bmi-calculator,calorie-calculator,body-fat-percentage-calculator,ideal-weight-calculator,tdee-calculator,macro-calculator,body-type-calculator,calories-burned-calculator,protein-calculator  ">
                 			<p class="input__title">Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="age" value="30"  />
@@ -138,7 +138,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -159,13 +159,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -180,11 +182,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--small table-cell--only-title">BASAL METABOLIC RATE</p>
-	<p class="table-cell table-cell--big table-cell--age table-cell--only table-cell--nogap row">BMR = <span id="bmr">1,793</span> calories per day</p>
+	<p class="table-cell table-cell--big table-cell--age table-cell--only table-cell--nogap row animate">BMR = <span id="bmr">1,793</span> calories per day</p>
 	<div class="result-table__wrapper">
 		<table class="result-table">
 			<thead>
@@ -202,37 +203,37 @@
 					</td>
 					<td>0 minutes</td>
 					<td>Little or no exercise</td>
-					<td id="bmr-no-exercise">2,151</td>
+					<td id="bmr-no-exercise" class="animate">2,151</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--green">Low Activity</p></td>
 					<td>15-30 minutes</td>
 					<td>1-3 times per week</td>
-					<td id="bmr-low">2,465</td>
+					<td id="bmr-low" class="animate">2,465</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--green">Light Activity</p></td>
 					<td>15-30 minutes</td>
 					<td>4-5 times per week</td>
-					<td id="bmr-light">2,626</td>
+					<td id="bmr-light" class="animate">2,626</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--yellow">Medium Activity</p></td>
 					<td>15-30 minutes</td>
 					<td>3-4 times per week</td>
-					<td id="bmr-medium">2,778</td>
+					<td id="bmr-medium" class="animate">2,778</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--red">High Activity</p></td>
 					<td>45-120 minutes</td>
 					<td>6-7 times per week</td>
-					<td id="bmr-high">3,092</td>
+					<td id="bmr-high" class="animate">3,092</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--red">Very High Activity</p></td>
 					<td>2+ hours</td>
 					<td>Daily</td>
-					<td id="bmr-very-high">3,406</td>
+					<td id="bmr-very-high" class="animate">3,406</td>
 				</tr>
 			</tbody>
 		</table>

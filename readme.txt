@@ -24,7 +24,6 @@ Add the following code to your template where you would like the BMR Calculator 
 == Screenshots ==
 
 1. The BMR Calculator Input Form.
-2. The BMR Calculator Calculation Results.
 
 == Installation ==
 
